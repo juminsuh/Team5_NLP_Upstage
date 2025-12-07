@@ -3,7 +3,7 @@
 
 ### ✨Performance for 5_final.csv
 ---
-- EWAH: 100% (25/25)
+- EWHA: 100% (25/25)
 - MMLU: 76% (19/25)
 - Total: 88% (44/50)
 
