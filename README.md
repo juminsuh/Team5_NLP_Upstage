@@ -38,6 +38,10 @@ python run.py --data_path ./datasets/testset.csv
 ```
 python run.py --data_path <your_testsets_directory>
 ```
+✅ You can check each score (i.e., ewha, mmlu, total) by running the code below (You should modify the directory of score.py appropriately before you run the code):
+```
+python score.py
+```
 
 
 
