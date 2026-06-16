@@ -2,13 +2,13 @@
 [25-2 NLP] Term Project. Enhancing a QA performance of LLM (Solar Pro 2) using RAG and Prompt engineering.
 
 ### ✨Performance for 5_final.csv
----
+
 - EWHA: 100% (25/25)
 - MMLU: 76% (19/25)
 - Total: 88% (44/50)
 
 ### 🛠️ Setting
----
+
 1. Clone this repository to your local.
    ```
    git clone https://github.com/juminsuh/Team5_NLP_Upstage.git
@@ -21,7 +21,7 @@
 
 
 ### 🔗 Requirements
----
+
 1. Create your virual enviroment and activate it
 ```
 conda create -n team5 python=3.10 -y # create
@@ -61,7 +61,7 @@ python score.py
 5. We leveraged ensemble in order to ensure a more stable and robust final answer through majority voting. 
 
 ### 📚 Source
----
+
 We utilized textbook and QA datasets from hugging face. 
 - law
  
