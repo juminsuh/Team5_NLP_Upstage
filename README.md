@@ -49,6 +49,9 @@ python run.py --data_path <your_testsets_directory>
 python score.py
 ```
 
+### 📌 Key Features
+More detailed information can be found at [presentation slides](./[Team5] NLP_Presentation_Slides.pdf)
+
 ### 📚 Source
 ---
 We utilized textbook and QA datasets from hugging face. 
