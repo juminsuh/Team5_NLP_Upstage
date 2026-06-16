@@ -56,7 +56,7 @@ python score.py
 
 3. We implement RAG for each option, motivated by running RAG once for the 'Question + All Options' often fails to retrieve sufficient context for every specific options.
 
-4. We wrote prompts by empirically adding execution protocols based on the mistakes the model made, such as verification, 
+4. We wrote prompts by empirically adding execution protocols based on the mistakes the model made, such as verification, the format of output, and etc. 
 
 5. We leveraged ensemble in order to ensure a more stable and robust final answer through majority voting. 
 
