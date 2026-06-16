@@ -50,7 +50,15 @@ python score.py
 ```
 
 ### 📌 Key Features
-More detailed information can be found at [presentation slides](./[Team5] NLP_Presentation_Slides.pdf)
+1. We used a LLM router to utilize different prompts depending on the question type (EWHA or MMLU).
+
+2. We parsed a table into a raw text, which enables LLM to understand better.
+
+3. We implement RAG for each option, motivated by running RAG once for the 'Question + All Options' often fails to retrieve sufficient context for every specific options.
+
+4. We wrote prompts by empirically adding execution protocols based on the mistakes the model made, such as verification, 
+
+5. We leveraged ensemble in order to ensure a more stable and robust final answer through majority voting. 
 
 ### 📚 Source
 ---
